@@ -111,7 +111,7 @@ const CreateFunc = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (!funcionarios || !escritorio || !empresa || !valor || !pix || !diaPagamento || !Jan) {
+        if (!funcionarios || !escritorio || !empresa || !valor || !pix || !diaPagamento || !Jan || !PagJan) {
             alert("Preencha todos os campos !!!");
             return;
         }
@@ -161,6 +161,7 @@ const CreateFunc = () => {
     return (
         <div className={styles.CreateFunc}>
             <h1>Adicionar Funcionário</h1>
+            <p>* Preencha os campos até a aba Janeiro.</p>
             <form onSubmit={handleSubmit}>
                 <table>
                     <thead>
@@ -207,8 +208,8 @@ const CreateFunc = () => {
                                     value={escritorio}
                                 >
                                     <option value=""></option>
-                                    <option value="Patos">Patos</option>
-                                    <option value="João Pessoa">João Pessoa</option>
+                                    <option value="Sede 01">Sede 01</option>
+                                    <option value="Sede 02">Sede 02</option>
                                 </select>
                             </td>
                             <td>
@@ -220,8 +221,8 @@ const CreateFunc = () => {
                                     value={empresa}
                                 >
                                     <option value=""></option>
-                                    <option value="ISN">ISN</option>
-                                    <option value="ISNEP">ISNEP</option>
+                                    <option value="Empresa 01">Empresa 01</option>
+                                    <option value="Empresa 02">Empresa 02</option>
                                 </select>
                             </td>
                             <td>

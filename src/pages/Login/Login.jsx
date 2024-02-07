@@ -36,6 +36,7 @@ const Login = () => {
     <div className={styles.login}>
       <h1>Entrar</h1>
       <p>Faça o login para utilizar o sistema</p>
+      <p className='alert'>Utilize "teste@teste.com" como login/senha para ter acesso.</p>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Email:</span>

@@ -230,7 +230,7 @@ td a:hover {
 }
 
 .company {
-  width: 50px;
+  width: 65px;
   text-align: center;
 }
 
@@ -263,4 +263,11 @@ td a:hover {
   border-bottom: 1px solid #ccc;
   width: 50px;
   text-align: center;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 9px;
 }

@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBGn69aNUyr0Lb4LZ13zuUT1llRkdtkRWs",
-  authDomain: "iramilton-13bc8.firebaseapp.com",
-  projectId: "iramilton-13bc8",
-  storageBucket: "iramilton-13bc8.appspot.com",
-  messagingSenderId: "251771374424",
-  appId: "1:251771374424:web:b760fc4a211bb731fbb32d",
-  measurementId: "G-C6NQ4352G7"
+  apiKey: "AIzaSyDth1KGvhZcAt3X061M6aT_CNEskWi6-xw",
+  authDomain: "easyestimate-ff7f0.firebaseapp.com",
+  projectId: "easyestimate-ff7f0",
+  storageBucket: "easyestimate-ff7f0.appspot.com",
+  messagingSenderId: "516998271746",
+  appId: "1:516998271746:web:71e0e249c64dcd1db6281b",
+  measurementId: "G-H5P9ECVHW8"
 };
 
 // Initialize Firebase

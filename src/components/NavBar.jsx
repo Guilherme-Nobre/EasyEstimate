@@ -1,7 +1,5 @@
 import styles from './NavBar.module.css';
 
-import logo from '../assets/logo.png'
-
 import { NavLink } from "react-router-dom";
 
 import { useAuthentication } from '../hooks/useAuthentication';
@@ -16,7 +14,7 @@ const NavBar = () => {
     return (
         <nav className={styles.navbar}>
             <NavLink to="/" className={styles.brand} >
-                <img src={logo} alt="Minha Imagem" className={styles.logo} />
+                <img alt="Sua Logo" className={styles.logo} />
             </NavLink>
             <ul className={styles.links_list}>
                 <li>

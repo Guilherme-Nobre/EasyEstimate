@@ -55,11 +55,11 @@ const EditLine = () => {
         try {
             // Mostrar um alerta de confirmação antes de excluir
             const userConfirmed = window.confirm("Tem certeza de que deseja excluir este documento?");
-    
+
             // Se o usuário confirmar, prosseguir com a exclusão
             if (userConfirmed) {
                 await deleteDocument(url);
-                
+
                 // Redirecionar ou realizar outras ações após a exclusão bem-sucedida
                 navigate("/clientes");
             } else {
@@ -71,7 +71,7 @@ const EditLine = () => {
             // Adicione código para lidar com o erro, como exibir uma mensagem ao usuário
         }
     };
-    
+
 
     const handleValorChange = (value, name) => {
         setValor(value);
@@ -262,8 +262,8 @@ const EditLine = () => {
                                         value={escritorio}
                                     >
                                         <option value=""></option>
-                                        <option value="Patos">Patos</option>
-                                        <option value="João Pessoa">João Pessoa</option>
+                                        <option value="Sede 01">Sede 01</option>
+                                        <option value="Sede 02">Sede 02</option>
                                     </select>
                                 </td>
                                 <td>
@@ -286,14 +286,15 @@ const EditLine = () => {
                                         value={empresa}
                                     >
                                         <option value=""></option>
-                                        <option value="ISN">ISN</option>
-                                        <option value="ISNEP">ISNEP</option>
+                                        <option value="Empresa 01">Empresa 01</option>
+                                        <option value="Empresa 02">Empresa 02</option>
                                     </select>
                                 </td>
                                 <td>
                                     <input
                                         type="text"
                                         name="agencia"
+                                        className='agency'
                                         required
                                         onChange={(e) => setAgencia(e.target.value)}
                                         value={agencia}
@@ -303,6 +304,7 @@ const EditLine = () => {
                                     <input
                                         type="text"
                                         name="conta"
+                                        className='account'
                                         required
                                         onChange={(e) => setConta(e.target.value)}
                                         value={conta}
@@ -311,6 +313,7 @@ const EditLine = () => {
                                 <td>
                                     <CurrencyInput
                                         name="valor"
+                                        className='value'
                                         allowNegativeValue={false}
                                         onValueChange={handleValorChange}
                                         value={valor}
@@ -331,7 +334,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagJan}
                                         onChange={handlePagJanChange}
@@ -350,7 +353,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagFev}
                                         onChange={handlePagFevChange}
@@ -369,7 +372,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagMar}
                                         onChange={handlePagMarChange}
@@ -388,7 +391,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagAbr}
                                         onChange={handlePagAbrChange}
@@ -407,7 +410,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagMai}
                                         onChange={handlePagMaiChange}
@@ -426,7 +429,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagJun}
                                         onChange={handlePagJunChange}
@@ -445,7 +448,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagJul}
                                         onChange={handlePagJulChange}
@@ -464,7 +467,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagAgo}
                                         onChange={handlePagAgoChange}
@@ -483,7 +486,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagSet}
                                         onChange={handlePagSetChange}
@@ -502,7 +505,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagOut}
                                         onChange={handlePagOutChange}
@@ -521,7 +524,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagNov}
                                         onChange={handlePagNovChange}
@@ -540,7 +543,7 @@ const EditLine = () => {
                                         <option value="inadimplente">Inadimplente</option>
                                     </select>
                                     <InputMask
-                                    className='monthsCreate'
+                                        className='monthsCreate'
                                         mask="99/99/9999"
                                         value={PagDez}
                                         onChange={handlePagDezChange}

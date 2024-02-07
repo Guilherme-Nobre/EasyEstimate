@@ -2,6 +2,13 @@
     margin: 20px;
 }
 
+.CreateFunc p {
+    color: red;
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 9px;
+}
+
 .buttons {
     margin-top: 20px;
 }

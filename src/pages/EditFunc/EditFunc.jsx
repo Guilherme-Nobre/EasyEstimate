@@ -58,11 +58,11 @@ const EditFunc = () => {
         try {
             // Mostrar um alerta de confirmação antes de excluir
             const userConfirmed = window.confirm("Tem certeza de que deseja excluir este documento?");
-    
+
             // Se o usuário confirmar, prosseguir com a exclusão
             if (userConfirmed) {
                 await deleteDocument(url);
-                
+
                 // Redirecionar ou realizar outras ações após a exclusão bem-sucedida
                 navigate("/funcionarios");
             } else {
@@ -279,8 +279,8 @@ const EditFunc = () => {
                                         value={escritorio}
                                     >
                                         <option value=""></option>
-                                        <option value="Patos">Patos</option>
-                                        <option value="João Pessoa">João Pessoa</option>
+                                        <option value="Sede 01">Sede 01</option>
+                                        <option value="Sede 02">Sede 02</option>
                                     </select>
                                 </td>
                                 <td>
@@ -291,8 +291,8 @@ const EditFunc = () => {
                                         value={empresa}
                                     >
                                         <option value=""></option>
-                                        <option value="ISN">ISN</option>
-                                        <option value="ISNEP">ISNEP</option>
+                                        <option value="Empresa 01">Empresa 01</option>
+                                        <option value="Empresa 02">Empresa 02</option>
                                     </select>
                                 </td>
                                 <td>

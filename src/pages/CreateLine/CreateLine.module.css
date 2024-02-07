@@ -25,3 +25,10 @@ input::placeholder {
 .CreateLine {
     margin: 0 10px;
 }
+
+.CreateLine p {
+    color: red;
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 9px;
+}
