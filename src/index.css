@@ -1,0 +1,266 @@
+body {
+  background-color: #f6fcff;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+label span {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  text-align: left;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #2f2f2f;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: 0.4s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover,
+nav button:hover {
+  color: #bbb;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  padding: 0.6em 0em;
+  background-color: transparent;
+  width: auto;
+  font-size: 10px;
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: #06142e;
+  color: #fff;
+}
+
+button[disabled] {
+  background-color: #aaa;
+}
+
+.container .error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.slct {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 4px auto;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: center;
+}
+
+th {
+  width: auto;
+  font-size: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Estilo para o link de alterar */
+td a {
+  text-decoration: none;
+  font-size: 9px;
+  color: #007bff;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+.export {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.5s;
+}
+
+.export:hover {
+  background-color: #f1916d;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.back {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.5s;
+}
+
+.back:hover {
+  background-color: #473e66;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.add {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.5s;
+}
+
+.add:hover {
+  background-color: #1b3358;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.save {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.5s;
+}
+
+.save:hover {
+  background-color: #541a2e;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.delete {
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid #000;
+  padding: 7px 30px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.5s;
+}
+
+.delete:hover {
+  background-color: #b51a2b;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.tableItens {
+  width: 30px;
+  text-align: center;
+}
+
+.formPayment,
+.dayPayment {
+  width: 80px;
+  text-align: center;
+}
+
+.desk {
+  width: 70px;
+  text-align: center;
+}
+
+.company {
+  width: 50px;
+  text-align: center;
+}
+
+.agency {
+  width: 60px;
+  text-align: center;
+}
+
+.account {
+  width: 65px;
+  text-align: center;
+}
+
+.value {
+  width: 60px;
+  text-align: center;
+}
+
+.pix {
+  width: 100px;
+}
+
+.months {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.monthsCreate {
+  border-bottom: 1px solid #ccc;
+  width: 50px;
+  text-align: center;
+}

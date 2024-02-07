@@ -1,0 +1,27 @@
+form {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+input {
+    font-size: 9px;
+}
+
+select {
+    font-size: 9px;
+}
+
+input::placeholder {
+    font-size: 9px;
+}
+
+.EditFunc {
+    margin: 0 20px;
+}

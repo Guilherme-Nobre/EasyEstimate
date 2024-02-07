@@ -1,0 +1,15 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpLog {
+    width: 400px;
+    border-bottom: 1px solid #ccc;
+}
+
+.inpLog::placeholder {
+    font-size: 11px;
+}

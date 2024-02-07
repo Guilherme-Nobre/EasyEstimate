@@ -1,0 +1,47 @@
+/* Estilo para a mensagem de nenhum cadastro */
+.noCadastro {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo para a tabela de prefeituras */
+.clientes {
+    margin: 20px;
+}
+
+.clientes p {
+    color: red;
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 9px;
+}
+
+/* Estilo para os botões */
+.botoes {
+    margin-top: 20px;
+}
+
+.search {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 40%;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+th {
+    width: auto;
+    font-size: 10px;
+}
