@@ -230,7 +230,7 @@ td a:hover {
 }
 
 .company {
-  width: 65px;
+  width: 50px;
   text-align: center;
 }
 
@@ -253,7 +253,79 @@ td a:hover {
   width: 100px;
 }
 
-.months {
+.hide-on-print-jan {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-fev {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-mar {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-abr {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-mai {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-jun {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-jul {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-ago {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-set {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-out {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-nov {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.hide-on-print-dez {
+  border-bottom: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+.noCheck {
   border-bottom: 1px solid #ccc;
   width: 70px;
   text-align: center;
@@ -263,11 +335,4 @@ td a:hover {
   border-bottom: 1px solid #ccc;
   width: 50px;
   text-align: center;
-}
-
-.alert {
-  color: red;
-  font-weight: bold;
-  font-family: "Montserrat";
-  font-size: 9px;
 }
